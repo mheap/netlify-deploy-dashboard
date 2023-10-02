@@ -1,0 +1,26 @@
+{
+  "name": "netlify-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/static": "^6.11.2",
+    "@fastify/view": "^8.2.0",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.23.2",
+    "lodash.groupby": "^4.6.0",
+    "netlify": "^13.1.10",
+    "nunjucks": "^3.2.4"
+  },
+  "devDependencies": {
+    "chart.js": "^4.4.0"
+  }
+}
